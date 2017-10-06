@@ -4,6 +4,7 @@ app.config(($routeProvider, $locationProvider) => {
     $locationProvider.hashPrefix('')
     $routeProvider
         .when('/', {
-            templateUrl: '../partials/home.html'
+            controller: 'homeCtrl',
+            templateUrl: 'partials/home.html'
         })
 })
