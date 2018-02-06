@@ -4,8 +4,8 @@ app.config(($routeProvider, $locationProvider) => {
     $locationProvider.hashPrefix('')
     $routeProvider
         .when('/', {
-            controller: 'homeCtrl',
-            templateUrl: 'partials/home.html'
+            controller: 'minimalCtrl',
+            templateUrl: 'partials/minimal.html'
         })
 
         .when('/negative', {

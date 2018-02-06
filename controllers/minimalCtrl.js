@@ -1,4 +1,4 @@
-app.controller('homeCtrl', function($scope) {
+app.controller('minimalCtrl', function($scope) {
     $scope.thing
     console.log($scope, "hello")
 })
