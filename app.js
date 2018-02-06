@@ -7,4 +7,14 @@ app.config(($routeProvider, $locationProvider) => {
             controller: 'homeCtrl',
             templateUrl: 'partials/home.html'
         })
+
+        .when('/negative', {
+            controller: 'negativeCtrl',
+            templateUrl: 'partials/negative.html'
+        })
+
+        .when('/animated', {
+            controller: 'animatedCtrl',
+            templateUrl: 'partials/animated.html'
+        })
 })

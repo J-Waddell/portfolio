@@ -20,11 +20,22 @@
 
     <div ng-app="portfolio">
         <div ng-view=""></div>
+
+        <div class="container">
+            <ul class="nav nav-tabs">
+              <li role="presentation" class="active"><a href="#/">Minimal</a></li>
+              <li role="presentation"><a href="#/negative">Negative</a></li>
+              <li role="presentation"><a href="#/animated">Animated</a></li>
+            </ul>
+        </div>
     </div>
 
 <script src="bower_components/angular/angular.min.js"></script>
 <script src="bower_components/angular-route/angular-route.min.js"></script>
 <script src="app.js"></script>
 <script src="controllers/homeCtrl.js"></script>
+<script src="controllers/negativeCtrl.js"></script>
+<script src="controllers/animatedCtrl.js"></script>
+
 </body>
 </html>
